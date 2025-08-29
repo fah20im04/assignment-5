@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service Directory</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- tailwind link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-[#FFFFFF]">
+    <!-- nav setion -->
+   <section class="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-6 py-4 sm:py-6 bg-white shadow-md">
+    
+    <!-- logo + title -->
+    <div class="flex items-center gap-3">
+      <img class="w-14 sm:w-20" src="./assets/logo.png" alt="Logo">
+      <h1 class="text-green-800 text-xl sm:text-3xl font-bold leading-tight">
+        Emergency <br class="hidden sm:block"> Service
+      </h1>
+    </div>
+
+    <!-- buttons -->
+    <div class="flex flex-wrap justify-center sm:justify-end gap-2 sm:gap-4 mt-4 sm:mt-0">
+      <!-- Heart -->
+      <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">
+        <span>0</span>
+        <img src="./assets/heart.png" alt="Heart" class="h-5 w-5">
+      </button>
+
+      <!-- Coins -->
+      <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">
+        <span>100</span>
+        <img src="./assets/coin.png" alt="Coin" class="h-5 w-5">
+      </button>
+
+      <!-- Copy -->
+      <button class="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">
+        <span>0</span> Copy
+      </button>
+    </div>
+  </section>
+
+  <!-- banner section -->
+   <section class="min-h-[250px] border-2 border-red-500 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] p-6 text-white rounded-lg flex flex-col justify-center items-center">
+
+        <div>
+            <img class="h-[100px]" src="./assets/logo.png" alt="">
+            
+        </div>
+        <div class="text-center">
+            <h1 class="text-4xl font-bold ">Emergency Service Directory</h1>
+            <br>
+            <p class="font-semibold text-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
+
+   </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
