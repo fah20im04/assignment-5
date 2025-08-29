@@ -42,7 +42,7 @@
 
       <!-- Copy -->
       <button class="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">
-        <span>0</span> Copy
+        <span id="copy-cnt" >0</span> Copy
       </button>
     </div>
   </section>
@@ -62,7 +62,7 @@
 
    </section>
 <!-- card section -->
-   <section>
+   <section class="flex justify-around">
         <section class="grid grid-cols-1 sm: justify-center sm:items-center lg:grid-cols-3 gap-6 max-w-[90%] lg:max-w-2/3 p-4 lg:p-6 m-5 mt-12"
 >
     <!-- first -->
@@ -78,14 +78,14 @@
              <h2 class="text-[24px] font-bold">National Emergency Number</h2>
              <p class=" text-xl text-gray-400">National Emergency</p>
             <br>
-            <h2 id="phn-number" class="text-2xl font-bold">999</h2>
+            <h2 id="phn-number1" class="text-2xl font-bold">999</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all1" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
       </button>
       <br>
       <div class="flex">
-        <button id="copy-button" class="text-gray-800 p-2 rounded-[10px] text-xl font-semibold border-2 border-gray-400 w-1/2 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-3"><i class="fa-solid fa-copy"></i> Copy</button>
+        <button id="copy-button1" class="text-gray-800 p-2 rounded-[10px] text-xl font-semibold border-2 border-gray-400 w-1/2 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-3"><i class="fa-solid fa-copy"></i> Copy</button>
         <button id="call-button1" class="buttons text-white rounded-[10px] text-xl font-semibold bg-green-600 w-1/2 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl"><i class="fa-solid fa-phone"></i> Call</button>
         
       </div>
@@ -106,7 +106,7 @@
             <h2 id="phn-number2" class="text-2xl font-bold">999</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all2" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Police
       </button>
       <br>
       <div class="flex">
@@ -131,7 +131,7 @@
             <h2 id="phn-number3" class="text-2xl font-bold">999</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all3" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Fire
       </button>
       <br>
       <div class="flex">
@@ -156,7 +156,7 @@
             <h2 id="phn-number4" class="text-2xl font-bold">1994-999999</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all4" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Ambulance
       </button>
       <br>
       <div class="flex">
@@ -181,7 +181,7 @@
             <h2 id="phn-number5" class="text-2xl font-bold">109</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all5" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Help
       </button>
       <br>
       <div class="flex">
@@ -206,7 +206,7 @@
             <h2 id="phn-number6" class="text-2xl font-bold">106</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all6" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Govt
       </button>
       <br>
       <div class="flex">
@@ -231,7 +231,7 @@
             <h2 id="phn-number7" class="text-2xl font-bold">16216</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all7" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Electricity
       </button>
       <br>
       <div class="flex">
@@ -257,7 +257,7 @@
             <h2 id="phn-number8" class="text-2xl font-bold">16445</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all8" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">NGO
       </button>
       <br>
       <div class="flex">
@@ -282,7 +282,7 @@
             <h2 id="phn-number9" class="text-2xl font-bold">163</h2>
         </div>
     
-        <button class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">All
+        <button id="all9" class="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-3xl font-bold text-sm sm:text-base">Travel
       </button>
       <br>
       <div class="flex">
@@ -295,8 +295,17 @@
 
    </section>
    <!-- transaction histry -->
-   <section>
+   <section class="h-[700px] shadow-2xl rounded-2xl w-[22%] mt-[100px]">
+        <div class="flex justify-between p-5">
+            <div class="flex items-center gap-2 justify-center">
+                <i class="fa-regular fa-clock"></i>
+                <h2 class="font-bold">Call History</h2>
+            </div>
+            <div>
+                <button class="bg-green-600 text-white px-4 py-2 rounded-3xl font-bold text-sm"> Clear</button>
 
+            </div>
+        </div>
    </section>
    </section>
    
