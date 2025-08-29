@@ -62,7 +62,7 @@
 
    </section>
 <!-- card section -->
-   <section class="flex justify-around">
+  <section class="flex flex-col sm:flex-col lg:flex-row justify-around">
         <section class="grid grid-cols-1 sm: justify-center sm:items-center lg:grid-cols-3 gap-6 max-w-[90%] lg:max-w-2/3 p-4 lg:p-6 m-5 mt-12"
 >
     <!-- first -->
@@ -75,7 +75,7 @@
             <i id="heart1" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">National Emergency Number</h2>
+             <h2 id="heading1" class="text-[24px] font-bold">National Emergency Number</h2>
              <p class=" text-xl text-gray-400">National Emergency</p>
             <br>
             <h2 id="phn-number1" class="text-2xl font-bold">999</h2>
@@ -100,7 +100,7 @@
             <i id="heart2" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Police Helpline Number</h2>
+             <h2 id="heading2"  class="text-[24px] font-bold">Police Helpline Number</h2>
              <p class=" text-xl text-gray-400">Police</p>
             <br>
             <h2 id="phn-number2" class="text-2xl font-bold">999</h2>
@@ -125,7 +125,7 @@
             <i id="heart3" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Fire Service Number</h2>
+             <h2 id="heading3"  class="text-[24px] font-bold">Fire Service Number</h2>
              <p class=" text-xl text-gray-400">Fire-Service</p>
             <br>
             <h2 id="phn-number3" class="text-2xl font-bold">999</h2>
@@ -150,7 +150,7 @@
             <i id="heart4" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Ambulance Service</h2>
+             <h2 id="heading4"  class="text-[24px] font-bold">Ambulance Service</h2>
              <p class=" text-xl text-gray-400">Ambulance</p>
             <br>
             <h2 id="phn-number4" class="text-2xl font-bold">1994-999999</h2>
@@ -175,7 +175,7 @@
             <i id="heart5" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Women & Child Helpline</h2>
+             <h2 id="heading5"  class="text-[24px] font-bold">Women & Child Helpline</h2>
              <p class=" text-xl text-gray-400">Women & Child Helpline</p>
             <br>
             <h2 id="phn-number5" class="text-2xl font-bold">109</h2>
@@ -200,7 +200,7 @@
             <i id="heart6" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Anti-Corruption Helpline</h2>
+             <h2 id="heading6"  class="text-[24px] font-bold">Anti-Corruption Helpline</h2>
              <p class=" text-xl text-gray-400">Anti-Corruption</p>
             <br>
             <h2 id="phn-number6" class="text-2xl font-bold">106</h2>
@@ -225,7 +225,7 @@
             <i id="heart7" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Electricity Helpline</h2>
+             <h2 id="heading7"  class="text-[24px] font-bold">Electricity Helpline</h2>
              <p class=" text-xl text-gray-400">Electricity Outage</p>
             <br>
             <h2 id="phn-number7" class="text-2xl font-bold">16216</h2>
@@ -251,7 +251,7 @@
             <i id="heart8" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Brac Helpline</h2>
+             <h2 id="heading8"  class="text-[24px] font-bold">Brac Helpline</h2>
              <p class=" text-xl text-gray-400">Brac</p>
             <br>
             <h2 id="phn-number8" class="text-2xl font-bold">16445</h2>
@@ -276,7 +276,7 @@
             <i id="heart9" class=" fa-regular fa-heart text-3xl text-gray-400"></i>   
         </div>
         <div class="ml-3">
-             <h2 class="text-[24px] font-bold">Bangladesh Railway Helpline </h2>
+             <h2 id="heading9"  class="text-[24px] font-bold">Bangladesh Railway Helpline </h2>
              <p class=" text-xl text-gray-400">Bangaladesh Railway</p>
             <br>
             <h2 id="phn-number9" class="text-2xl font-bold">163</h2>
@@ -295,18 +295,22 @@
 
    </section>
    <!-- transaction histry -->
-   <section class="h-[700px] shadow-2xl rounded-2xl w-[22%] mt-[100px]">
-        <div class="flex justify-between p-5">
-            <div class="flex items-center gap-2 justify-center">
-                <i class="fa-regular fa-clock"></i>
-                <h2 class="font-bold">Call History</h2>
-            </div>
-            <div>
-                <button class="bg-green-600 text-white px-4 py-2 rounded-3xl font-bold text-sm"> Clear</button>
+   <section class="h-[700px] shadow-2xl rounded-2xl w-[22%] w-[350px] mt-[100px]">
+  <div id="history-container" class="flex justify-between p-5">
+    <div class="flex items-center gap-2 justify-center">
+      <i class="fa-regular fa-clock"></i>
+      <h2 class="font-bold">Call History</h2>
+    </div>
+    <div>
+      <button id="clearHistory" class="bg-green-600 text-white px-4 py-2 rounded-3xl font-bold text-sm">Clear</button>
+    </div>
+  </div>
+  <div id="callHistory" class="flex flex-col gap-4 px-5 m-4">
 
-            </div>
-        </div>
-   </section>
+  </div>
+
+</section>
+
    </section>
    
 
